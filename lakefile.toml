@@ -1,0 +1,10 @@
+name = "lean-wittgenstein"
+version = "0.1.0"
+defaultTargets = ["lean-wittgenstein"]
+
+[[lean_lib]]
+name = "LeanWittgenstein"
+
+[[lean_exe]]
+name = "lean-wittgenstein"
+root = "Main"
